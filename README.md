@@ -1,17 +1,31 @@
-# React + Vite
+# AWS Amplify Full‑Stack Web App (React + AppSync + Lambda + DynamoDB)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This project is a full‑stack web application built with **AWS Amplify**. It features a simple **React** frontend with **user authentication**, a **serverless function** to handle user sign‑ups, and an **Amazon DynamoDB** table for storing user emails. The application leverages AWS’s robust and scalable cloud services to deliver a seamless user experience, allowing users to sign up, log in, and store information securely.
 
-Currently, two official plugins are available:
+## Why Use AWS Amplify for This Project?
+**AWS Amplify** simplifies deploying full‑stack web applications by providing ready‑to‑use backend services, including hosting, authentication, API management, and data storage. By using Amplify, you can focus on building the application’s functionality rather than managing infrastructure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I’ve Learned / Achieved
+- **Host:** Build and deploy a React application on the AWS global content delivery network (CDN).
 
-## React Compiler
+- **Authenticate:** Add authentication to the app to enable sign‑in and sign‑out functionality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Database:** Integrate a real‑time API, database, and a serverless function.
 
-## Expanding the ESLint configuration
+- **Function:** Implement a Lambda function that triggers when a user signs up to the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# profilesapp
+## Tech Stack
+- **AWS Amplify:** Provides end‑to‑end services for hosting and managing the web application.
+
+- **AWS AppSync:** Facilitates real‑time API creation and management.
+
+- **AWS Lambda:** Runs serverless functions for handling user data.
+
+- **Amazon DynamoDB:** NoSQL database for storing user emails.
+
+- **React:** Frontend framework used to build the web application.
+
+- **Node.js & npm:** For managing dependencies and running the React app.
+
+- **Git & GitHub:** Version control and repository hosting.
